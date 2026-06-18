@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    width: 600px;
+    margin: 200px 100px 100px 400px;
+    border-radius: 16px;
+}
+.score{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: red;
+    border-radius: 12px;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    font-size: xx-large;
+}
+.score-add{
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 30px;
+    width: 40px;
+    border-radius: 4px;
+    margin: 0px 2px;
+}
